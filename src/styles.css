@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+
+body {
+    font-family: 'Raleway', 'Arial';
+}
+.bold {
+    font-weight: 700;
+  }
+
+  input.ng-invalid.ng-dirty {
+      border: 1.5px solid red;
+  }
+
+  button:hoover, a.btn:hoover{
+      cursor: pointer;
+  }
